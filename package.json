@@ -8,10 +8,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "build": "node index.js build",
-    "build-gh": "node index.js build --public-url 'https://VIKRAM-RAJA-S.github.io/water--footprint'",
-    "predeploy": "npm run build-gh",
-    "deploy": "gh-pages -d dist"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js build --public-url 'https://VIKRAM-RAJA-S.github.io/water--footprint'"
   },
   "author": "",
   "license": "ISC",
