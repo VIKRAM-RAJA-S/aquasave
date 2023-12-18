@@ -7,9 +7,9 @@
     "node": "14.x"
   },
   "scripts": {
-    "start": "parcel",
-    "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://VIKRAM-RAJA-S.github.io/water--footprint'",
+    "start": "node index.js",
+    "build": "node index.js build",
+    "build-gh": "node index.js build --public-url 'https://VIKRAM-RAJA-S.github.io/water--footprint'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
