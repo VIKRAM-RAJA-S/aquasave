@@ -8,8 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node index.js build --public-url 'https://VIKRAM-RAJA-S.github.io/water--footprint'"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
