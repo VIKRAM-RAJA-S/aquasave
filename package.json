@@ -8,7 +8,7 @@
   },
   "scripts": {
     "newscript": "npm install",
-    "start": "node index.js",
+    "start": "npm index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
